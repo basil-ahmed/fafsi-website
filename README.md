@@ -1,88 +1,197 @@
-# Free Tailwind landing page template
+# FAFSI Website
 
-![Simple TailwindCSS template preview](https://github.com/cruip/tailwind-landing-page-template/assets/2683512/f9a98fab-a1bc-4fb5-8572-4de0b6bd932a)
+## Description
 
-**Simple Light** is a free landing page template built on top of **TailwindCSS** and fully coded in **React** / **Next.js**. Simple light is designed to provide all the basic components a developer need to create a landing page for SaaS products, online services, and more.
-Use it for whatever you want, and be sure to reach us out on X if you build anything cool/useful with it.
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+The FAFSI website is a professional platform that offers resources for home purchasing, refinancing, and mortgage prequalification. The website is designed to provide users with a seamless and informative experience, allowing them to explore mortgage tools, learn about services, and contact the FAFSI team.
 
-_Version 1.3.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/tailwind-landing-page-template/releases/tag/1.3.3)._
+The site is built with **Next.js** and styled using **Tailwind CSS**, hosted on **Vercel**, and integrates **Formspree** for form submission functionality.
 
-## Live demo
+---
 
-Check the live demo here 👉️ [https://simple.cruip.com/](https://simple.cruip.com/)
+## Table of Contents
 
-## Simple Pro
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Form Submissions](#form-submissions)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
 
-[![Simple Pro](https://github.com/cruip/tailwind-landing-page-template/assets/2683512/992be2ba-3de7-4838-be41-12e85686c193)](https://cruip.com/)
+---
 
-## Design files
+## Features
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3HOZMpf
+1. **Home Page**
+   - Interactive hero section with navigation links to different pages.
+   - Smooth scroll functionality for in-page navigation.
+   - Mortgage tools for rates, calculator, and news.
 
-## Usage
+2. **Pages**
+   - **Purchase**: A detailed guide to home purchasing, including necessary documents.
+   - **Refinancing**: Comprehensive information on refinancing options and required steps.
+   - **Prequalify**: A form for quick mortgage prequalification using Formspree.
+   - **Contact Us**: A user-friendly form to contact FAFSI directly.
+   - **About Us**: Overview of FAFSI’s mission and services.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+3. **Responsive Design**
+   - Fully responsive layout optimized for desktop, tablet, and mobile devices.
 
-### Getting Started
+4. **Footer and Header**
+   - Footer links to key resources, with "coming soon" placeholders for social media.
+   - Sticky header with smooth navigation.
 
-First, run the development server:
+5. **SEO-Optimized**
+   - Meta descriptions and Open Graph tags for enhanced search engine visibility.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+---
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Hosting**: [Vercel](https://vercel.com/)
+- **Forms**: [Formspree](https://formspree.io/)
+- **Version Control**: [Git](https://git-scm.com/)
+
+---
+
+## Project Structure
+
+```
+├── components/
+│   ├── ui/
+│   │   ├── header.tsx       // Header component
+│   │   ├── footer.tsx       // Footer component
+│   └── logo.tsx             // Logo component
+├── pages/
+│   ├── index.tsx            // Home page
+│   ├── purchase.tsx         // Purchase page
+│   ├── refinancing.tsx      // Refinancing page
+│   ├── prequalify.tsx       // Prequalify form page
+│   ├── contact.tsx          // Contact form page
+│   ├── _app.tsx             // Application wrapper
+│   ├── _document.tsx        // Custom document
+├── public/
+│   ├── images/              // Image assets
+├── styles/
+│   ├── globals.css          // Global styles
+├── README.md
+├── package.json
+├── tailwind.config.js       // Tailwind configuration
+├── postcss.config.js        // PostCSS configuration
+└── tsconfig.json            // TypeScript configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Prerequisites
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Install **Node.js** (LTS version recommended).
+2. Install **npm** or **yarn** (comes with Node.js).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-### Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/fafsi-site.git
+   cd fafsi-site
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Open [http://localhost:3000](http://localhost:3000) to view the site in your browser.
 
-### Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The website is hosted on [Vercel](https://vercel.com/). Follow these steps for deployment:
 
-### Support notes
+1. Install the Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
 
-This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
+2. Login to Vercel:
+   ```bash
+   vercel login
+   ```
 
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+3. Deploy the project:
+   ```bash
+   vercel
+   ```
 
-## Credits
+4. Update your DNS settings to point to Vercel’s nameservers if using a custom domain.
 
-- [Nucleo](https://nucleoapp.com/)
+---
 
-## Terms and License
+## Form Submissions
 
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2024 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
+Forms on the **Prequalify** and **Contact Us** pages use [Formspree](https://formspree.io/) for handling submissions.
 
-## About Us
+### Setting Up Formspree
 
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+1. Create a Formspree account.
+2. Copy your unique endpoint URL (e.g., `https://formspree.io/f/xqakllkg`).
+3. Replace the `action` attribute in the forms with your endpoint.
 
-## Stay in the loop
+---
 
-If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
+## Customization
 
+### Updating Site Content
+
+1. **Pages**: Modify the content in the `pages/` directory to customize each page.
+2. **Images**: Replace images in the `public/images/` directory with your assets.
+
+### Styling
+
+- Update `styles/globals.css` or use the Tailwind utility classes in the components.
+- Tailwind configuration can be customized in `tailwind.config.js`.
+
+---
+
+## Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add a feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+---
+
+## Contact
+
+For questions or support, contact us at [info@fafsi.com](mailto:info@fafsi.com).
