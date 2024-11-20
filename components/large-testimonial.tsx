@@ -1,9 +1,10 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import TestimonialImg from "@/public/images/main_image.jpg";
 
-export default function LargeTestimonial() {
+export default function About() {
   return (
     <section>
+      
       <div className="mx-auto max-w-2xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
@@ -29,17 +30,16 @@ export default function LargeTestimonial() {
                 alt="Large testimonial"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+            <p className="text-2xl font-bold text-gray-900 whitespace-pre-line">
+              “At First American Financial Services Inc. we treat each customer as an individual, not a number.{" "}<em className="italic text-gray-500">We don't place you into a loan profile formula created by the banking industry</em>. 
+              We use "common sense" and will help you obtain the best loan possible. We represent a wide range of "A" rated lenders with first quality rates to private "hardship" lenders. 
+              <br className="max-lg:hidden" /><br className="max-lg:hidden" />We work with multiple lenders. This allows us to get you the best rates on all types of loan programs including: {" "}<em className="italic text-gray-500">30yr mortgage, 20yr mortgage, 15yr mortgage, 10yr mortgage, 1yr ARMS, 3yr ARMS, 5yr ARMS, Conventional, Jumbo, Home Equity Lines, VA and Commercial</em>. Whether your situation calls for Full Documents, No Documents, Non-Owner Occupied (Investor) or Multi-Family, we'll fit your needs!{" "}
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Farid Premjee</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                Founder at FAFSI
               </a>
             </div>
           </div>

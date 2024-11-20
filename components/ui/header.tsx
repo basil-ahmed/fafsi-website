@@ -11,22 +11,52 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
+          {/* Navigation links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signin"
+                href="/"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
               >
-                Login
+                Home
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                onClick={(e) => {
+                  if (window.location.pathname !== "/") {
+                    e.preventDefault();
+                    window.location.href = `/#about`;
+                  }
+                }}
+              >
+                About Me
+              </a>
+            </li>
+            <li>
+              <Link
+                href="/purchase"
+                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+              >
+                Purchase
               </Link>
             </li>
             <li>
               <Link
-                href="/signup"
+                href="/refinancing"
+                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+              >
+                Refinancing
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/prequalify"
                 className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
               >
-                Register
+                Prequalify
               </Link>
             </li>
           </ul>

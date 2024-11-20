@@ -83,6 +83,9 @@ module.exports = {
           to: { transform: "translateX(-100%)" },
         },
       },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite', // 20s for a slow rotation
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],
