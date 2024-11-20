@@ -11,7 +11,7 @@ export default function HeroHome() {
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           {/* Main image */}
           <div
-            className="mx-auto max-w-md mb-8"
+            className="mx-auto max-w-xl mb-8"
             data-aos="zoom-y-out"
             data-aos-delay={150}
           >
