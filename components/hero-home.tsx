@@ -32,7 +32,7 @@ export default function HeroHome() {
               data-aos-delay={300}
             >
               First American <br className="max-lg:hidden" />
-              Financial Services Inc
+              Financial Services Inc.
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
