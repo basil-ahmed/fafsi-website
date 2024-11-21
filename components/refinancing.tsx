@@ -66,7 +66,7 @@ export default function Refinancing() {
                 How We Can Help
               </h3>
               <p className="text-sm text-gray-400">
-              At NFP Services, we are dedicated to finding the loan that fits your individual needs .
+              At First American Financial Services Inc. we are dedicated to finding the loan that fits your individual needs .
 
 
 Another way to convert equity in your home to cash is a "home equity" loan. A "home equity" loan is an alternative to refinancing if your home loan has a very low rate compared to current interest rates or if you have a prepayment penalty on your loan.

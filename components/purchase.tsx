@@ -54,7 +54,7 @@ export default function Purchase() {
                 Why Choose Us
               </h3>
               <p className="text-sm text-gray-400">
-                At NFP Services, our mission is to provide personalized
+                At First American Financial Services Inc. our mission is to provide personalized
                 assistance throughout your home-buying journey. From securing
                 the best rates to preparing the necessary documents, we’re here
                 to make the process smooth and transparent.
