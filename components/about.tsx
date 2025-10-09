@@ -45,7 +45,7 @@ export default function About() {
                 Our Philosophy
               </h3>
               <p className="text-sm text-gray-400">
-                At First American Financial Services Inc., we prioritize
+                At FAFSI, we prioritize
                 treating each customer as an individual, not a number. Our
                 common-sense approach ensures you get the best loan tailored to
                 your unique needs.
