@@ -31,7 +31,7 @@ export default function About() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900 whitespace-pre-line">
-              “At First American Financial Services Inc. we treat each customer as an individual, not a number.{" "}<em className="italic text-gray-500">We don't place you into a loan profile formula created by the banking industry</em>. 
+              “At FAFSI, we treat each customer as an individual, not a number.{" "}<em className="italic text-gray-500">We don't place you into a loan profile formula created by the banking industry</em>. 
               We use "common sense" and will help you obtain the best loan possible. We represent a wide range of "A" rated lenders with first quality rates to private "hardship" lenders. 
               <br className="max-lg:hidden" /><br className="max-lg:hidden" />We work with multiple lenders. This allows us to get you the best rates on all types of loan programs including: {" "}<em className="italic text-gray-500">30yr mortgage, 20yr mortgage, 15yr mortgage, 10yr mortgage, 1yr ARMS, 3yr ARMS, 5yr ARMS, Conventional, Jumbo, Home Equity Lines, VA and Commercial</em>. Whether your situation calls for Full Documents, No Documents, Non-Owner Occupied (Investor) or Multi-Family, we'll fit your needs!{" "}
             </p>
