@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <Link href="/" className="inline-flex" aria-label="FAFSI">
       <img
-        src="/images/fafsi-logo.png"
+        src="/images/fafsi-logo-2.png"
         alt="FAFSI Logo"
         className="h-12 w-auto relative left-0" // Adjust height and width as needed
       />
